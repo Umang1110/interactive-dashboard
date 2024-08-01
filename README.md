@@ -1,103 +1,36 @@
-Interactive Dashboard
-An interactive dashboard application built with Next.js, React.js, TypeScript, HTML5, and CSS3. This project includes a dashboard with charts, data tables, and a settings page, and is designed to be responsive and visually appealing.
+This is a [Next.js Interactive Dashboard](https://interactive-dashboard-umang.vercel.app/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Table of Contents:
+## Getting Started
 
-    Installation
-    Usage
-    Folder Structure
-    Styling
-    License
+First, run the development server:
 
-Installation
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-    Prerequisites
-    Ensure you have the following software installed on your machine:
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-    Node.js (version 18.x or later recommended)
-    Git
-    
-    Clone the Repository
-    First, clone the repository to your local machine:    
-    git clone https://github.com/Umang1110/interactive-dashboard.git
-    cd interactive-dashboard
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-    Install Dependencies
-    Navigate to the project directory and install the required dependencies:
-    npm install
-    or if you use Yarn:
-    yarn install
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-Usage
-    Running the Development Server
-    To start the development server and view the application locally, run:
-    npm run dev
-    or with Yarn:
-    yarn dev
-    Open your browser and navigate to http://localhost:3000 to view the dashboard.
+## Learn More
 
-Building the Project
-    To build the project for production:
+To learn more about Next.js, take a look at the following resources:
 
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-    npm run build
-    or with Yarn:
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
+## Deployed on Vercel
 
-    yarn build
-    To start the production server:
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-
-    npm start
-    or with Yarn:
-
-
-    yarn start
-
-Folder Structure
-    The folder structure of the project is organized as follows:
-
-    /src
-    /components
-        Header.tsx
-        Header.module.css
-        Sidebar.tsx
-        Sidebar.module.css
-        ChartWidget.tsx
-        ChartWidget.module.css
-        DataTableWidget.tsx
-        DataTableWidget.module.css
-        BarChartWidget.tsx
-        BarChartWidget.module.css
-    /pages
-        _app.tsx
-        index.tsx
-        settings.tsx
-    /utils
-        mockData.ts
-    /lib
-        chart.ts
-    /styles
-        globals.css
-        layout.css
-    public
-    .gitignore
-    next.config.js
-    package.json
-    tsconfig.json
-
-Styling
-    Global Styles
-    /styles/globals.css: Contains global styles applied across the application.
-    /styles/layout.css: Contains layout-specific styles for the dashboard and settings page.
-    Component Styles
-    Header: Defined in Header.module.css
-    Sidebar: Defined in Sidebar.module.css
-    ChartWidget: Defined in ChartWidget.module.css
-    DataTableWidget: Defined in DataTableWidget.module.css
-    BarChartWidget: Defined in BarChartWidget.module.css
-    Responsive Design
-    The application includes responsive design adjustments for mobile and tablet views. The sidebar is hidden on mobile devices and can be toggled using a hamburger menu.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+Check out my [Next.js Interactive Dashboard](https://interactive-dashboard-umang.vercel.app/) here.
