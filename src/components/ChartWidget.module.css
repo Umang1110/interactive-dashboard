@@ -1,0 +1,21 @@
+.chartContainer {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    width: 50%;
+  }
+  
+  .chartTitle {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+
+  @media (max-width: 768px) {
+    .chartContainer {
+      width: 95%;
+    }
+  }

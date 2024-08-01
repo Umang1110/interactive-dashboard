@@ -1,0 +1,63 @@
+.sidebar {
+    width: 220px;
+    background: rgba(42, 52, 72, 1);
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    color: #fff;
+  }
+  
+  .logoContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .companyName {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 15px;
+  }
+  
+  .link {
+    color: #7C8FAC;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease;
+  }
+  
+  .link:hover {
+    color: #42A5F5;
+  }
+  
+  .icon {
+    margin-right: 10px;
+  }
+  
+
+  @media (max-width: 768px) {
+    .sidebar {
+      display: none;
+    }
+  }

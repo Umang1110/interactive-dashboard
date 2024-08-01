@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .main {
+    padding: 20px;
+    flex-grow: 1;
+    background: #fff;
+  }
+  
+  .charts {
+    display: flex;
+  }
+  .settingsContainer {
+    padding: 20px;
+    max-width: 800px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .select {
+    width: 30%;
+    padding: 8px;
+  }
+
+  @media (max-width: 768px) {
+    .charts {
+      display: block;
+    }
+  }
